@@ -11,7 +11,7 @@ import NotFound from './Component/NotFound'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename='/school-basic-react-app-1'>
       <Routes>
       
         <Route path='/' element={<Home/>} />
